@@ -1,9 +1,7 @@
 
-Instance 0 Private-IP: 10.0.1.93
-Instance 1 Private-IP: 10.0.3.166
+Private-Instance 1 Private-IP: 10.0.1.93
+Private-Instance 2 Private-IP: 10.0.3.166
  
- Instance 1 Public IP: 34.229.110.182 
- 
- 
- Instance 2 Public IP: 3.239.19.230 
+ Public-Instance 1 Public IP: 34.229.110.182 
+ Public-Instance 2 Public IP: 3.239.19.230 
  
