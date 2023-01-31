@@ -27,6 +27,15 @@ terraform apply
 
 ------------------------
 
+### Bonus
+- Added Ansible files to configure EC2 machines using configuration management tool tou use it instead of provisioner in Terraform
+- Ansible uses 1 of the EC2 public machines as a bastion host to connect to the private ones
+- Installs Nginx on all machines then copy a script and run it on the machines
+- Pass any script to the ansible files to cinfigure the machines as you like
+- The provided IPS are dynamic not static so make sure to clear the ***all-ips*** file and use the IPS generated on applying terraform 
+
+-----------
+
 
 ### Screenshots of output 
 
