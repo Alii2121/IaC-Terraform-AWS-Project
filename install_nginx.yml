@@ -1,0 +1,22 @@
+---
+- name: Install Nginx on EC2 instances
+  hosts: all
+  become: yes
+  gather_facts: false
+  tasks:
+    - name: Install Nginx
+      package:
+        name: nginx
+        state: present
+     
+    
+    ## To Copy and run a script to configure nginx on the machines
+    
+    - name: Copy the script file
+      copy:
+        src: /path/to/script.sh
+        dest: /tmp/script.sh
+        mode: 0755
+
+    - name: Run the shell script
+      script: /tmp/script.sh
