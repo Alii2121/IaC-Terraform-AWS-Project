@@ -4,6 +4,29 @@
 ![photo1674223144](https://user-images.githubusercontent.com/103090890/215821310-42d639e9-ea86-490e-b652-2305672f3886.jpeg)
 
 -------------
+## To Deploy this infrastructure on your account
+1- clone this repo 
+
+```bash
+git clone https://github.com/Alii2121/IaC-Terraform-AWS-Project.git
+```
+2- Create your own key-pair and use in EC2/main.tf
+
+3- Make sure to pass your credentials correctly in ***main.tf*** file provider block
+
+4- Comment the backend in ***RemoteStateFile.tf*** and change ***S3*** name to a unique one
+
+5- Make sure you Have installed latest version of Terraform and run the following commands inside the project directory 
+
+```bash
+terraform init 
+terraform apply
+```
+6- uncomment the backend and apply step 5 again
+
+
+------------------------
+
 
 ### Screenshots of output 
 
